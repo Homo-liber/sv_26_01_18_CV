@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/contact.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <div class="menu_item"><a href="index.html">HOME</a></div>
+        <div class="menu_item"><a href="cvpage.html">CV</a></div>
+        <div class="menu_item"><a href="#">CONTACTS</a></div>
+      </div>
+    </header>
+
+    <h1 class="top_contacts">CONTACTS</h1>
+
+    <section class="contacts">
+      Telefon: 123-456-7890 <br />
+      E-mail: max-mustermann@gmail.com <br />
+      Los Angeles , USA <br />
+    </section>
+
+    <section class="contact_form">
+      <form action="">
+        <input placeholder="Your E-Mail" type="email" /> <br />
+        <input placeholder="Your message" type="text" /> <br />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="icecream_form">
+      <form action="">
+        <div class="icecream_form__item">
+          <label for="name">Name</label>
+          <input id="name" placeholder="Vorname und Name " type="text" />
+        </div>
+
+        <div class="icecream_form__item">
+          <label for="sortice">Sorte</label>
+          <select name="sort" id="sortice">
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="strawberry">Strawberry</option>
+          </select>
+        </div>
+
+        <div class="icecream_form__item">
+          <div class="icecream_form__becher">
+            <div class="becher-input">
+              <input id="becher" type="radio" name="Becher" />
+            </div>
+
+            <div class="becher-label">
+              <label for="becher">Becher</label>
+            </div>
+          </div>
+
+          <div class="icecream_form__waffel">
+            <input id="waffel" type="radio" name="Waffel" />
+            <label for="waffel">Waffel</label>
+          </div>
+        </div>
+
+        <div class="icecream_form__item">
+          <div class="fast-delivery">
+            <label for="delivery">Schnelle Lieferung</label>
+            <input id="delivery" type="checkbox" />
+          </div>
+        </div>
+
+        <button class="ice-button" type="submit">Jetzt Eis bestellen</button>
+      </form>
+    </section>
+  </body>
+</html>

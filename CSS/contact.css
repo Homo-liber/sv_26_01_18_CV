@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  margin: 0 auto;
+  position: fixed; /*    POSITION  = = = = = = = = = = = = = = = = = = =      */
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  color: black;
+  background-color: #4e7cac;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu_item {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.menu_item a {
+  text-decoration: none;
+  color: black;
+}
+
+.top_contacts {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.contacts {
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+input,
+textarea,
+label,
+select,
+button {
+  display: block;
+}
+
+.contact_form {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #4e7cac;
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  padding: 3px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 6px 15px;
+}
+
+.icecream_form {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding: 30px;
+  background-color: #f6db82;
+  border-radius: 20px;
+}
+
+input {
+  width: 290px;
+  font-size: 15px;
+  padding: 3px;
+}
+
+select {
+  width: 290px;
+  font-size: 15px;
+  padding-left: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.icecream_form__item {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.icecream_form__becher,
+.icecream_form__waffel {
+  display: flex;
+  justify-content: left;
+  font-size: 20px;
+}
+
+.icecream_form__becher {
+  background-color: rgb(115, 104, 104);
+}
+
+.becher-input {
+  background-color: aqua;
+  padding: 0;
+  margin: 0;
+}
+
+.becher-label {
+  background-color: chocolate;
+}
+
+.fast-delivery {
+  display: flex;
+}
+
+.delivery {
+  font-size: 20px;
+}
+
+.ice-button {
+  margin-top: 20px;
+  width: 290px;
+  background-color: rgb(60, 92, 92);
+  border: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+@media (max-width: 540px) {
+  header {
+    position: static; /*    POSITION  = = = = = = =      */
+    margin-bottom: 30px;
+  }
+
+  .menu {
+    max-width: 540px;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  .menu_item {
+    padding: 15px;
+  }
+
+  .top_contacts {
+    padding-top: 30px;
+  }
+
+  .contacts {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .contact_form {
+    width: 80%; /* comment test */
+  }
+
+  input {
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  button {
+    padding: 6px 15px;
+  }
+}
